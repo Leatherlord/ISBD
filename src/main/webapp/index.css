@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    border: 6px solid black;
+    border-radius: 3px;
+    vertical-align: top;
+}
+
+body {
+    position: relative;
+}
+
+h2,
+label {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.container,
+.header-container{
+    width: 100%;
+    display: flex;
+}
+
+.applications,
+.positions,
+.voting,
+.votes {
+    width: 25%;
+    display: inline-block;
+    border: 6px solid black;
+    border-radius: 3px;
+    vertical-align: top;
+    horiz-align: left;
+}

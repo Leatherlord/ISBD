@@ -1,0 +1,19 @@
+h2,
+label {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+body {
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    top: 25%;
+    display: inline-block;
+    border: 6px solid black;
+    border-radius: 3px;
+}
